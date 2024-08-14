@@ -1,0 +1,18 @@
+import java.util.*;
+class Main
+{
+    public static void main(String args[])
+    {
+        ArrayList<String> li = new ArrayList<String>();
+        Scanner obj = new Scanner(System.in);
+        while(true)
+        {
+            String str = obj.nextLine();
+            if(str.equals("-1")) break;
+            li.add(str);
+        }
+        
+        for(String s : li)
+            System.out.println(s);
+    }
+}
